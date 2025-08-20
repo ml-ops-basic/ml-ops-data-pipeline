@@ -1,0 +1,13 @@
+services:
+  minio:
+    image: minio/minio:latest
+    container_name: minio
+    environment:
+      MINIO_ROOT_USER: admin
+      MINIO_ROOT_PASSWORD: adminadmin123
+    command: server /data --console-address ":9001"
+    volumes:
+      - ./data:/data
+    ports:
+      - "9000:9000"   # S3 API
+      - "9001:9001"   # Web console
