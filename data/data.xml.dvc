@@ -1,5 +1,14 @@
 outs:
-- md5: 22a1a2931c8370d3aeedd7183606fd7f
-  size: 14445097
+- md5: 89d47ce2409688e938f7972444c14766.dir
+  size: 72225485
   hash: md5
   path: data.xml
+  nfiles: 3
+md5: af674f871ec56d166b00a05c9c355e42
+frozen: true
+deps:
+- md5: 58867847162237f7918a09649d82ee28.dir
+  size: 144451238
+  nfiles: 7
+  hash: md5
+  path: s3://jmktm-test-bucket-s3/
