@@ -1,10 +1,10 @@
 outs:
-- md5: 89d47ce2409688e938f7972444c14766.dir
-  size: 72225485
+- md5: 287c6992d6fe5dea9104950c2125161b.dir
+  size: 144451238
   hash: md5
   path: data.xml
-  nfiles: 3
-md5: af674f871ec56d166b00a05c9c355e42
+  nfiles: 7
+md5: 2718863b86fdbd464f69888312c2e901
 frozen: true
 deps:
 - md5: 58867847162237f7918a09649d82ee28.dir
